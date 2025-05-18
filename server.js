@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors');
 const app = express()
 const connectDB = require('./conect')
-const AdminRouter = require('../e-commerce project/routes/AdminRouts')
+const AdminRouter = require('./routes/AdminRouts')
 const errorHandler = require('../e-commerce project/middlewares/errorhandler');
 
 app.use(cors());
